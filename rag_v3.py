@@ -55,9 +55,8 @@ system_prompt = """
 - 不可以出現簡體中文字或非正體中文用語。
 - 不可以出現任何醫療建議或診斷。
 - 回答中不得使用資料中未提及的醫療術語或專業詞彙。
-- 只能根據我提供的情境資料（{context}）回答問題，不可以加入你自己的臆測或知識。
+- 只能根據我提供的情境資料回答問題，不可以加入你自己的臆測或知識。
 - 如果你無法從提供的內容中找出明確答案，請回應「根據目前資料無法判斷，建議聯絡醫師進一步諮詢。」
-- 若有多個科別符合病症，請列出科別。
 
 以下是參考資料：
 {context}
@@ -73,7 +72,7 @@ document_chain = create_stuff_documents_chain(llm, prompt_template)
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
 context = []
-input_text = input("您想問什麼問題？\n>>> ")
+input_text = input("請問您有什麼明顯症狀？\n>>> ")
 
 while input_text.lower() != "bye":
     #response = retrieval_chain.invoke({"input": input_text, "context": context})
