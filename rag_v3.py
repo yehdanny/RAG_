@@ -27,7 +27,7 @@ def load_by_department(file_path):
         if len(lines) >= 2:
             department = lines[0].replace("科別 : ", "")
             description = lines[1].replace("科別病症敘述 : ", "")
-            full_text = f"這是某醫院的 : {department}\n其常見病症包括 : {description}"
+            full_text = f"這是醫院的 : {department} ，其部門醫生或常見病症有 : {description}"
             docs.append(Document(page_content=full_text))
     #for doc in docs:
     #    print(f'c = {doc.page_content}')
