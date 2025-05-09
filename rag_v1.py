@@ -4,20 +4,15 @@ import json
 from numpy import linalg, dot
 
 def parse_paragraph(filename):
-    with open(filename,encoding="utf-8") as f:
+    with open('data/'+filename,encoding="utf-8") as f:
         return [line.strip() for line in f if line.strip()]
-    
+
+
 def calc_embedings(paragraphs):
     return [
         ollama.embeddings(model="mistral", prompt=data)["embedding"]
         for data in paragraphs
     ]
-
-def calc_similar_vectors(v, vectors):
-    v_norm = linalg.norm(v)
-    scores = [dot(v, item) / (v_norm * linalg.norm(item)) for item in vectors]
-    return sorted(enumerate(scores), reverse=True, key=lambda x: x[1])
-
 def cache_embeddings(filename, paragraphs):
     embedding_file = f"cache/{filename}.json"
 
@@ -34,10 +29,16 @@ def cache_embeddings(filename, paragraphs):
 
     return embeddings
 
+def calc_similar_vectors(v, vectors):
+    v_norm = linalg.norm(v)
+    scores = [dot(v, item) / (v_norm * linalg.norm(item)) for item in vectors]
+    return sorted(enumerate(scores), reverse=True, key=lambda x: x[1])
+
+
 if __name__ == "__main__":
-    doc = "data/data.txt"
+    doc = "output.txt"
     paragraphs = parse_paragraph(doc)
-    embeddings = cache_embeddings(doc, paragraphs)
+    embeddings = cache_embeddings(doc,paragraphs)
 
     prompt = input("請問你想問什麼問題？\n>>> ")
 
