@@ -1,0 +1,1482 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>該看哪一科 | 該看哪一科 | 就醫指南 | 衛生福利部臺北醫院</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Description" content="衛生福利部臺北醫院">
+<meta name="Keywords" content="該看哪一科">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:image" content="/favicon.png">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<base href="/images/templates/mold_01/" >
+<link href="/framework/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<link href="/framework/bootstrap-4.2.1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/framework/fontawesome-free-5.10.2-web/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="/framework/fontawesome-free-5.10.2-web/css/fontawesome.css" rel="stylesheet" type="text/css">
+<link href="/framework/OwlCarousel2/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+<link href="/framework/OwlCarousel2/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+<link href="/framework/animate/animate.css" rel="stylesheet" type="text/css">
+<link href="/css/templates/mold_01/common.css" rel="stylesheet" type="text/css">
+<link href="/css/templates/mold_01/hover.css" rel="stylesheet" type="text/css">
+
+<script src="/scripts/jquery-3.7.1.js"></script>
+<script src="/framework/jquery-ui-1.12.1/jquery-ui.min.js" async></script>
+<script src="/framework/jquery-cookie/jquery.cookie.js" async></script>
+<script src="/framework/OwlCarousel2/owl.carousel.min.js"></script>
+<script src="/framework/animate/wow.min.js"></script>
+<script src="/framework/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js" async defer></script>
+<script src="/framework/fontawesome-free-5.10.2-web/js/all.min.js" async defer></script>
+<script src="/framework/fontawesome-free-5.10.2-web/js/fontawesome.min.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!--script src="/scripts/recaptcha_api.js" async defer></script-->
+
+<script src="/scripts/lib.js" async defer></script>
+<script src="/scripts/define.js" async defer></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--script async src="https://www.googletagmanager.com/gtag/js?id="></script-->
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', '');
+</script>
+
+<script>
+$(document).ready(function(){
+	/*$('#f_small').click(function(){
+		$('body').css({'font-size' : '90%'});
+		$(".text-size.active").removeClass('active')
+		$(this).parent().toggleClass('active');
+		$.cookie('font_size','90', { expires: 1,secure:true});
+		$.cookie('text-size','.text-sm', { expires: 1,secure:true});
+		return false;
+	});
+	$('#f_normal').click(function(){
+		$('body').css({'font-size' : '100%'});
+		$(".text-size.active").removeClass('active')
+		$(this).parent().toggleClass('active');
+		$.cookie('font_size','100', { expires: -1,secure:true});
+		$.cookie('text-size','.text-md', { expires: 1,secure:true});
+		return false;
+	});
+	$('#f_large').click(function(){
+		$('body').css({'font-size' : '110%'});
+		$(".text-size.active").removeClass('active')
+		$(this).parent().toggleClass('active');
+		$.cookie('font_size','110', { expires: 1,secure:true});
+		$.cookie('text-size','.text-lg', { expires: 1,secure:true});
+		return false;
+	});*/
+
+	if(font_size = $('#fontSize').val()){
+		$('body').css({'font-size' : font_size + '%'});
+	}
+	if(font_size = $('#textSize').val()){
+		$('#text-sm').removeClass("active");
+		$('#text-md').removeClass("active");
+		$('#text-lg').removeClass("active");
+		$('#'+font_size).addClass("active");
+	}
+
+	new WOW().init();
+});
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org/",
+	"@type": "WebPage",
+	"name": "該看哪一科 | 該看哪一科 | 就醫指南 | 衛生福利部臺北醫院",
+	"url": "",
+	"description": "醫療機構網際網路資訊管理辦法聲明：禁止任何網際網路服務業者轉錄本網路資訊之內容供人點閱。 但以網路搜尋或超連結方式，進入本醫療機構之網址（域）直接點閱者，不在此限。
+本網站建議使用Chrome & Firefox & Microsoft Edge瀏覽器 / 螢幕解析度1920*1080以上
+版權所有 © 2021 衛生福利部臺北醫院",
+	"keywords" : [
+									"該看哪一科"
+					
+	]
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":[
+
+									{
+					"@type": "ListItem",
+					"position": 3,
+					"item":{
+						"@id": "/?aid=902&pid=0",
+						"name": "該看哪一科"
+					}
+				},
+												{
+					"@type": "ListItem",
+					"position": 2,
+					"item":{
+						"@id": "/?aid=9&pid=0",
+						"name": "就醫指南"
+					}
+				},
+											{
+					"@type": "ListItem",
+					"position": 1,
+					"item":{
+						"@id": "/?aid=home",
+						"name": "衛生福利部臺北醫院"
+					}
+			}
+						]
+}
+</script>
+<script>
+
+    const isDemoSite = false;
+
+    // 為迴避 CDN 快取，採用動態載入的方式
+
+    function loadScript(url, callback) {
+
+        var scriptTag = document.createElement('script');
+
+        scriptTag.src = url + '?_=' + new Date().getTime();
+
+        scriptTag.onload = function () {
+
+            if (callback) {
+
+                callback();
+
+            }
+
+        };
+
+        document.head.appendChild(scriptTag);
+
+    }
+
+    loadScript('https://linebot.tph.mohw.gov.tw/webchat/caiwebchat-config.js', function () {
+
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/caiwebchat-loader.js');
+
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/webchat_tph_mohw/custom.js');
+
+    });
+
+ 
+
+    // 頁面剛載入時 `CaiWebChat.init` 仍會是 `undefined`，
+
+    // 故此處採用宣告指定 handler 的方式，於載入完畢後自動呼叫
+
+    window.onCaiWebChatLoaded = function () {
+
+        CaiWebChat.init({ botId: 'webchat_tph_mohw' });
+
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/webchat_tph_mohw/customWebChatLoaded.js');
+
+    };
+
+ 
+
+    // WebChat 連線完要做的事情
+
+    window.onConnectFulfill = function () {
+
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/webchat_tph_mohw/customConnectFulfill.js');
+
+    }
+
+</script>
+<!--
+<script>
+    const isDemoSite = false;
+    //為迴避CDN快取，採用動態載入的方式
+    function loadScript(url, callback) {
+        var scriptTag = document.createElement('script');
+        scriptTag.src = url + '?_=' + new Date().getTime();
+        scriptTag.onload = function () {
+            if (callback) {
+                callback();
+            }
+        };
+        document.getElementsByTagName("head")[0].appendChild(scriptTag);
+    };
+    loadScript('https://linebot.tph.mohw.gov.tw/webchat/caiwebchat-config.js', function () {
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/caiwebchat-loader.js');
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/tph_out_service/custom.js');
+    });
+    
+    // 頁面剛載入時CaiWebChat.init仍會是`undefined`，
+    // 故此處採用宣告指定handler的方式，於載入完畢後自動呼叫
+    window.onCaiWebChatLoaded = function () {
+        CaiWebChat.init({ botId: 'tph_out_service' });
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/tph_out_service/customWebChatLoaded.js');
+    };
+
+    // WebChat連線完要做的事情
+    window.onConnectFulfill = function () {
+        loadScript('https://linebot.tph.mohw.gov.tw/webchat/bots/tph_out_service/customConnectFulfill.js');
+    };
+</script>
+<style>
+    .minimizable-web-chat{
+        position:fixed;
+        z-index:100;
+    }
+    .minimizable-web-chat .preview-message{
+        bottom:115px !important;
+    }
+    .minimizable-web-chat > button.maximize{
+        bottom:100px !important;
+    }
+    .minimizable-web-chat > .chat-box{
+        bottom:100px !important;
+    }
+</style>
+--><link rel="stylesheet" href="/css/templates/mold_01/mold_index.css" type="text/css">
+</head>
+
+<body>
+	<a href="/?aid=902#Content" class="sr-only sr-only-focusable text-white bg-dark" title="跳到主要內容區塊">跳到主要內容區塊</a>
+<div class="container-fluid top_bg d-none d-sm-block">
+	<div class="top_menu">
+		<a id="tiles_content" accesskey="U" name="Top" href="/?aid=902#Top">:::</a>&nbsp;
+		<a href="/" title="回首頁">回首頁</a>&nbsp;|&nbsp;
+		<a href="/?aid=sitemap" title="網站導覽">網站導覽</a>&nbsp;|&nbsp;
+		<a href="/?aid=608" title="服務信箱">服務信箱</a>&nbsp;|&nbsp;
+		<a href="/?aid=901" title="交通指引">交通指引</a>&nbsp;|&nbsp;
+		<div class="dropdown">
+		<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">English</button>
+                  <ul class="dropdown-menu" style="top:97%;">
+    			<li><a class="dropdown-item" href="/english" title="english">English</a></li>
+                        <li><a class="dropdown-item" href="/?aid=109" title="other languages">Other Languages</a></li>
+		  </ul>
+		</div>
+		<a href="https://nreg.tph.mohw.gov.tw/OReg/homepage#" title="網路掛號">網路掛號</a>
+	</div>
+</div>
+<div class="container-fluid" style="background-color:white;">
+	<noscript>本網站所有互動功能皆使用javascript，因為您的瀏覽器未支援javascript,因此不會有所動作，請開啟瀏覽器JavaScript狀態，謝謝！</noscript>
+	<div class="container-fluid">
+		<div class="row align-items-center justify-content-center">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+				<a href="/" title="衛生福利部臺北醫院" class="d-block text-center">
+					<h1><img class="img-fluid mx-auto" src="/public/logo/392ffaa61940293843e297615eeae5a5.png" alt="衛生福利部臺北醫院"></h1>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center d-block">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="img-fluid" src="/images/home_img/slogan.png" alt="標語:便捷貼心/優質醫療/服務親鄉/共享成長">
+					</div>
+					<div class="col-md-6">
+						<!--script async src="https://cse.google.com/cse.js?cx=007831005548881155480:1qcnf-tk-nw"></script-->
+						<div class="gcse-search"></div>
+					</div>
+					<noscript>您的瀏覽器不支援JavaScript功能，若「搜尋」功能無法正常使用時，請開啟瀏覽器JavaScript狀態，謝謝！</noscript>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center d-none d-sm-block">
+				<div class="appoint-btn px-2">
+					<input type="hidden" id="textSize" name="textSize" value="text-md" />
+					<input type="hidden" id="fontSize" name="fontSize" value="100" />
+					<div class="text-size" text-size="sm" id="text-sm">
+						<a class="d-block" href="https://www.tph.mohw.gov.tw/?aid=902&textStyle=f_small" id="f_small" name="f_small" title="字型:小">小</a>
+					</div>
+					<div class="text-size" text-size="md" id="text-md">
+						<a class="d-block" href="https://www.tph.mohw.gov.tw/?aid=902&textStyle=f_normal" id="f_normal" name="f_normal" title="字型:中">中</a>
+					</div>
+					<div class="text-size" text-size="lg" id="text-lg">
+						<a class="d-block" href="https://www.tph.mohw.gov.tw/?aid=902&textStyle=f_large" id="f_large" name="f_large" title="字型:大">大</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="icon-bar top-bar"></span>
+		<span class="icon-bar middle-bar"></span>
+		<span class="icon-bar bottom-bar"></span>
+	</button>
+
+	<div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+		<ul class="navbar-nav mx-auto">
+												<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" href="#" title="關於本院" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							關於本院
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink1">
+															<a class="dropdown-item" href="/?aid=101" title="醫院簡介" target="_self" rel="noopener noreferrer">
+									醫院簡介
+								</a>
+															<a class="dropdown-item" href="/?aid=102" title="院長介紹" target="_self" rel="noopener noreferrer">
+									院長介紹
+								</a>
+															<a class="dropdown-item" href="/?aid=103" title="副院長介紹" target="_self" rel="noopener noreferrer">
+									副院長介紹
+								</a>
+															<a class="dropdown-item" href="/?aid=104" title="各單位介紹" target="_self" rel="noopener noreferrer">
+									各單位介紹
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" href="#" title="醫療團隊" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							醫療團隊
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink2">
+															<a class="dropdown-item" href="/?aid=201" title="內科" target="_self" rel="noopener noreferrer">
+									內科
+								</a>
+															<a class="dropdown-item" href="/?aid=202" title="外科" target="_self" rel="noopener noreferrer">
+									外科
+								</a>
+															<a class="dropdown-item" href="/?aid=203" title="其他專科" target="_self" rel="noopener noreferrer">
+									其他專科
+								</a>
+															<a class="dropdown-item" href="/?aid=207" title="特色醫療中心" target="_self" rel="noopener noreferrer">
+									特色醫療中心
+								</a>
+															<a class="dropdown-item" href="/?aid=206" title="其他中心" target="_self" rel="noopener noreferrer">
+									其他中心
+								</a>
+															<a class="dropdown-item" href="/?aid=204" title="醫事部門" target="_self" rel="noopener noreferrer">
+									醫事部門
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink5" href="#" title="訊息專區" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							訊息專區
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink5">
+															<a class="dropdown-item" href="/?aid=501" title="最新消息" target="_self" rel="noopener noreferrer">
+									最新消息
+								</a>
+															<a class="dropdown-item" href="/?aid=504" title="新聞稿" target="_self" rel="noopener noreferrer">
+									新聞稿
+								</a>
+															<a class="dropdown-item" href="/?aid=530" title="醫政宣導" target="_self" rel="noopener noreferrer">
+									醫政宣導
+								</a>
+															<a class="dropdown-item" href="/?aid=532" title="門診表" target="_self" rel="noopener noreferrer">
+									門診表
+								</a>
+															<a class="dropdown-item" href="/?aid=inforscty" title="資訊安全政策" target="_self" rel="noopener noreferrer">
+									資訊安全政策
+								</a>
+															<a class="dropdown-item" href="/?aid=533" title="政府公開資訊" target="_self" rel="noopener noreferrer">
+									政府公開資訊
+								</a>
+															<a class="dropdown-item" href="https://nreg.tph.mohw.gov.tw/webreg/Hbed.asp" title="病床利用統計" target="_self" rel="noopener noreferrer">
+									病床利用統計
+								</a>
+															<a class="dropdown-item" href="/?aid=535" title="休診公告專區" target="_self" rel="noopener noreferrer">
+									休診公告專區
+								</a>
+															<a class="dropdown-item" href="/?aid=536" title="感恩園地" target="_self" rel="noopener noreferrer">
+									感恩園地
+								</a>
+															<a class="dropdown-item" href="/?aid=527" title="活動相簿" target="_self" rel="noopener noreferrer">
+									活動相簿
+								</a>
+															<a class="dropdown-item" href="/?aid=537" title="性別專區性騷擾止步" target="_self" rel="noopener noreferrer">
+									性別專區性騷擾止步
+								</a>
+															<a class="dropdown-item" href="/?aid=538" title="員工專區" target="_self" rel="noopener noreferrer">
+									員工專區
+								</a>
+															<a class="dropdown-item" href="https://www.tph.mohw.gov.tw/?aid=60&pid=204" title="急重症大樓統包工程興建採購廉政平臺 (另開新視窗) " target="_blank" rel="noopener noreferrer">
+									急重症大樓統包工程興建採購廉政平臺
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink9" href="#" title="就醫指南" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							就醫指南
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink9">
+															<a class="dropdown-item" href="/?aid=902" title="該看哪一科" target="_self" rel="noopener noreferrer">
+									該看哪一科
+								</a>
+															<a class="dropdown-item" href="/?aid=904" title="服務時間及各項須知" target="_self" rel="noopener noreferrer">
+									服務時間及各項須知
+								</a>
+															<a class="dropdown-item" href="/?aid=901" title="交通指引" target="_self" rel="noopener noreferrer">
+									交通指引
+								</a>
+															<a class="dropdown-item" href="/?aid=905" title="轉診服務" target="_self" rel="noopener noreferrer">
+									轉診服務
+								</a>
+															<a class="dropdown-item" href="/?aid=907" title="資料下載" target="_self" rel="noopener noreferrer">
+									資料下載
+								</a>
+															<a class="dropdown-item" href="/?aid=903" title="為民服務白皮書" target="_self" rel="noopener noreferrer">
+									為民服務白皮書
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink6" href="#" title="便民服務" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							便民服務
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink6">
+															<a class="dropdown-item" href="/?aid=636" title="常見Q&A" target="_self" rel="noopener noreferrer">
+									常見Q&A
+								</a>
+															<a class="dropdown-item" href="https://nreg.tph.mohw.gov.tw/OReg/homepage#" title="網路掛號" target="_self" rel="noopener noreferrer">
+									網路掛號
+								</a>
+															<a class="dropdown-item" href="/?aid=641" title="服務專線" target="_self" rel="noopener noreferrer">
+									服務專線
+								</a>
+															<a class="dropdown-item" href="/?aid=638" title="相關連結" target="_self" rel="noopener noreferrer">
+									相關連結
+								</a>
+															<a class="dropdown-item" href="/?aid=608" title="服務信箱" target="_self" rel="noopener noreferrer">
+									服務信箱
+								</a>
+															<a class="dropdown-item" href="/?aid=609" title="院長信箱" target="_self" rel="noopener noreferrer">
+									院長信箱
+								</a>
+															<a class="dropdown-item" href="/?aid=630" title="無菸檳醫院" target="_self" rel="noopener noreferrer">
+									無菸檳醫院
+								</a>
+															<a class="dropdown-item" href="https://www.tph.mohw.gov.tw/?aid=61&pid=149" title="檔案管理專區" target="_self" rel="noopener noreferrer">
+									檔案管理專區
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink4" href="#" title="線上申辦" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							線上申辦
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink4">
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=agree&page_name=agree&bid=1" title="醫療費用證明" target="_self" rel="noopener noreferrer">
+									醫療費用證明
+								</a>
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=agree&page_name=agree&bid=4" title="門診病歷資料" target="_self" rel="noopener noreferrer">
+									門診病歷資料
+								</a>
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=agree&page_name=agree&bid=5" title="急診病歷資料" target="_self" rel="noopener noreferrer">
+									急診病歷資料
+								</a>
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=agree&page_name=agree&bid=3" title="出院病歷資料" target="_self" rel="noopener noreferrer">
+									出院病歷資料
+								</a>
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=agree&page_name=agree&bid=2" title="出生、死亡證明書拷貝" target="_self" rel="noopener noreferrer">
+									出生、死亡證明書拷貝
+								</a>
+															<a class="dropdown-item" href="/?aid=401&pid=0&bsid=search&page_name=search&bid=" title="申辦服務進度" target="_self" rel="noopener noreferrer">
+									申辦服務進度
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink7" href="#" title="徵才招標" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							徵才招標
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink7">
+															<a class="dropdown-item" href="/?aid=701" title="線上徵才" target="_self" rel="noopener noreferrer">
+									線上徵才
+								</a>
+															<a class="dropdown-item" href="/?aid=702" title="招標公告" target="_self" rel="noopener noreferrer">
+									招標公告
+								</a>
+													</div>
+					</li>
+																<li class="nav-item dropdown">
+						<a style="color: #157dad;" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink8" href="#" title="衛教專欄" target="_self" rel="noopener noreferrer" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							衛教專欄
+						</a>
+						<div class="dropdown-menu m-0" aria-labelledby="navbarDropdownMenuLink8">
+															<a class="dropdown-item" href="/?aid=801" title="衛教文章" target="_self" rel="noopener noreferrer">
+									衛教文章
+								</a>
+															<a class="dropdown-item" href="/?aid=802" title="影音宣導" target="_self" rel="noopener noreferrer">
+									影音宣導
+								</a>
+													</div>
+					</li>
+																<li class="nav-item">
+						<a class="nav-link" href="https://esg.tph.mohw.gov.tw/" title="永續發展專區" target="_self" rel="noopener noreferrer">
+							永續發展專區
+						</a>
+					</li>
+										<li class="nav-item dropdown d-sm-none">
+				<a class="nav-link" href="/english" title="English" target="_self" rel="noopener noreferrer">
+					English
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<script>
+	$(function() {
+		$('.dropdown').mouseenter(function() {
+			var $this = $(this);
+			$this.addClass('show').slideDown();
+			$this.find('.dropdown-menu').addClass('show');
+		});
+
+		$('.dropdown').mouseleave(function() {
+			var $this = $(this);
+			$this.removeClass('show');
+			$this.find('.dropdown-menu').removeClass('show');
+		});
+	});
+
+	$(document).ready(function() {
+		$(".dropdown").each(function(index, element) {
+			var $this_menu = $(element);
+			$this_menu.find('.dropdown-menu a').last().focusout(function() {
+				$this_menu.removeClass('show');
+				$this_menu.find('.dropdown-menu').removeClass('show');
+			});
+		});
+	});
+</script>	 
+	<div class="container-fluid my-3">
+		<div class="row">
+                     			<div class="col-xl-2 col-lg-3 col-md-12 col-12">
+				<div class="LeftMenu  d-none d-lg-block d-xl-block">
+	<h2 class="LeftMenu-title">
+		<a href="/?aid=902#Left" id="tiles_left" name="Left" accesskey="L">:::</a>
+		就醫指南
+	</h2>
+	<nav class="navbar navbar-expand-lg navbar-light">
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#leftNavbar" aria-controls="leftNavbar" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="leftNavbar">
+			<ul class="navbar-nav d-block w-100">
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=902" title="該看哪一科" >
+							該看哪一科
+						</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=904" title="服務時間及各項須知" >
+							服務時間及各項須知
+						</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=901" title="交通指引" >
+							交通指引
+						</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=905" title="轉診服務" >
+							轉診服務
+						</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=907" title="資料下載" >
+							資料下載
+						</a>
+					</li>
+									<li class="nav-item">
+						<a class="nav-link" href="/?aid=903" title="為民服務白皮書" >
+							為民服務白皮書
+						</a>
+					</li>
+							</ul>
+		</div>
+	</nav>
+</div>			</div>
+
+			<div class="col-xl-10 col-lg-9 col-md-12 col-12">
+				<div class="shortcut">
+					<a href="/?aid=902#Content" id="tiles_content" name="Content" title="主要內容區" accesskey="C">:::</a>
+					<div class="mx-1"><i class="fas fa-home" aria-hidden="true" alt=""></i></div>
+			<div class="mx-1">
+				<a href="/" title="首頁" target="_self">首頁</a>
+			</div>
+			<div class="dep_map_pic">
+							<i class="fas fa-caret-right"></i>
+						</div>
+						<div class="mx-1">
+							<a href="/?aid=9&pid=0" title="就醫指南">就醫指南</a>
+						</div><div class="dep_map_pic">
+		<i class="fas fa-caret-right"></i>
+	</div>
+	<div class="mx-1">
+		<a href="/?aid=902&pid=0" title="該看哪一科">該看哪一科</a>
+	</div>
+				</div>
+				<div class="row">
+	<div class="col-12">
+		<h3 class="deptMainTitle">
+			<i class="fas fa-puzzle-piece"></i>
+			該看哪一科
+		</h3>
+	</div>
+</div>
+
+<div class="mb-2 text-right" id="share-buttons">
+	<a title="分享到facebook (另開新視窗) " href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));">
+		<img src="/images/share_btn/facebook.png" alt="Facebook icon" />
+	</a>
+	<a title="分享到LINE (另開新視窗) " href="javascript: void(window.open('https://lineit.line.me/share/ui?url=' .concat(encodeURIComponent(location.href)) ));">
+		<img src="/images/share_btn/line.png" alt="LINE icon" />
+	</a>
+	<a title="分享到Twitter (另開新視窗) " href="javascript: void(window.open('https://twitter.com/share?url=' .concat(encodeURIComponent(location.href)) ));">
+		<img src="/images/share_btn/twitter.png" alt="Twitter icon" />
+	</a>
+	<a title="分享到Plurk (另開新視窗) " href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent(location.href)) ));">
+		<img src="/images/share_btn/plurk.png" alt="plurk icon" />
+	</a>
+	<a title="分享到LinkedIn (另開新視窗) " href="javascript: void(window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=' .concat(encodeURIComponent(location.href)) ));">
+		<img src="/images/share_btn/linkedin.png" alt="LinkedIn icon" />
+	</a>
+</div>
+
+<div class="text-center py-3 about_title">
+	<a class='aboubtn_title' href="/?aid=902&iid=1" title="該看哪一科">該看哪一科</a>
+	</div>
+
+<div class="row">
+			<div class= "
+							col-12
+					">
+			<p><table cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; margin-left:1px; width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2" style="background-color:#538135; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:673px"><span style="font-size:1.625em"><span style="font-weight:bold"><span style="color:white">內科系門診</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt">一般內科</span></td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt">咳嗽、發燒、高血壓、身體不適、常見疾病的預防與診治。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt"><span style="color:black">肝膽腸胃科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=1" title="前往肝膽腸胃科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt"><span style="color:black">吞嚥異常、胃酸過多、打嗝漲氣、腹部疼痛、解便異常、嘔吐腹瀉、黃膽水腫、肝功能異常、脂肪肝、肝炎、肝硬化、腹部及消化道癌症、幽門桿菌檢查治療等。</span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt">心臟內科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=2" title="前往心臟內科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt">冠狀動脈心臟病，高血壓性心臟病 ，瓣膜性心臟病，心臟衰竭，心率不整，心導管手術。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt"><span style="color:black">內分泌新陳代謝科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=3" title="前往內分泌新陳代謝科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt"><span style="color:black">糖尿病、甲狀腺疾病、副甲狀腺疾病、腦下垂體病變、腎上腺病變、血脂異常、代謝症候群。</span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt">胸腔內科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=4" title="前往胸腔內科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt">感冒、咳嗽、咳血、呼吸道感染、支氣管炎、肺炎、胸痛、胸悶、呼吸困難、肺氣腫、肺結核、肺膿瘍、肺腫瘤、支氣管擴張症。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt"><span style="color:black">感染內科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=6" title="前往感染內科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt"><span style="color:black">愛滋病照護</span><span style="color:black">(</span><span style="color:black">含篩檢、治療、預防性投藥</span><span style="color:black">)</span><span style="color:black">、性傳染病、不明原因發燒、蜂窩性組織炎、骨關節感染、感冒、慢性咳嗽、頻尿、皮膚出疹、結核病治療及預防、各種感染症處理。</span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt">血液腫瘤科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=8" title="前往血液腫瘤科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt">一般血液疾病，如貧血、血球異常增生或減少。惡性腫瘤如淋巴癌、血癌、肺癌、食道癌，頭頸癌、大腸直腸癌、乳癌，攝護腺癌的診斷與治療。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt"><span style="color:black">風濕免疫科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=9" title="前往風濕免疫科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt"><span style="color:black">各種關節疼痛、關節炎，含痛風、退化關節炎、類風濕關節炎、骨質疏鬆。免疫病：僵直性脊椎炎、紅斑性狼瘡、硬皮症、皮肌炎、乾燥症、血管炎，過敏分析。</span></span></td>
+		</tr>
+		<tr>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt">腎臟內科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=7" title="前往腎臟內科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt">血液透析、腹膜透析、糖尿病腎病變、腎性高血壓、高尿酸血症、腎臟病、腎泌尿道感染、血尿、尿蛋白、水腫、腰痛、電解質異常。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:99px"><span style="font-size:12pt"><span style="color:black">神經內科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=5" title="前往神經內科"><span style="color:#ffffff"><span style="background-color:#003333">(前往)</span></span></a></span></td>
+			<td style="background-color:#c5e0b3; border-bottom:none; border-left:none; border-right:none; border-top:none; vertical-align:top; width:575px"><span style="font-size:12pt"><span style="color:black">頭痛、頸痛、神經或肌肉疼痛，頭暈、昏厥、抽搐、痙孿、癲癇、振顫，巴金森氏症、中風、失智。</span></span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<table cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; margin-left:1px; width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2" style="background-color:#fa8972; vertical-align:top; width:673px"><span style="font-size:1.625em"><span style="font-weight:bold"><span style="color:white">外科系門診</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:127px"><span style="font-size:12pt">一般外科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=10" title="前往一般外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a>(含乳房外科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=14" title="前往乳房外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a>)</span></td>
+			<td style="vertical-align:top; width:546px"><span style="font-size:12pt">肝膽手術、微創膽囊切除、微創膽道取石、甲狀腺、副甲狀腺手術、乳房各種手術及乳房腫瘤治療。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:127px"><span style="font-size:12pt"><span style="color:black">直腸外科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=11" title="前往直腸外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:546px"><span style="font-size:12pt"><span style="color:black">大腸鏡檢查、大腸直腸癌手術、腹腔鏡微創手術、肛門手術、痔瘡、廔管。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:127px"><span style="font-size:12pt">心臟外科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=12" title="前往心臟外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:546px"><span style="font-size:12pt">成人心臟手術、主動脈疾病、周邊血管疾病、下肢動脈阻塞、靜脈曲張、洗腎通路建立及維護。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:127px"><span style="font-size:12pt"><span style="color:black">胸腔外科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=13" title="前往胸腔外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:546px"><span style="font-size:12pt"><span style="color:black">吞嚥困難、胸部外傷、慢性咳嗽、聲音沙啞、胸痛、胸腔腫瘤胸腔鏡微創切除。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:127px"><span style="font-size:12pt">整形外科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=16" title="前往整形外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:546px"><span style="font-size:12pt">傷口照護、重建及美容手術，如：手外科外傷、燒燙傷、先天畸形、重建美容、顯微重建、顏面骨骨折、血管瘤及血管畸形、雙眼皮、眼袋、狐臭、豐胸、縮胸、抽脂、男性女乳症等。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:127px"><span style="font-size:12pt"><span style="color:black">神經外科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=15" title="前往神經外科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:546px"><span style="font-size:12pt"><span style="color:black">頭部外傷、腦瘤、顱內出血、多汗症、疼痛痠麻、椎間盤突出、下背痛、肩頸痠痛、脊椎滑脫、脊椎腫瘤、脊髓骨與頸椎外傷、腰椎骨折。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:127px"><span style="font-size:12pt">骨科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=17" title="前往骨科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:546px"><span style="font-size:12pt">骨折脫臼、關節炎、關節退化、脊椎與關節鏡手術、骨瘤、骨質疏鬆、脊椎病變、坐骨神經痛、扳機指、脊椎側彎、脊椎滑脫症、五十肩、十字韌帶斷裂、半月板損傷、骨骼肌肉超音波檢查。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:127px"><span style="font-size:12pt"><span style="color:black">泌尿科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=24" title="前往泌尿科"><span style="color:#ffffff"><span style="background-color:#990033">(前往)</span></span></a></span></td>
+			<td style="background-color:#fdc4b9; vertical-align:top; width:546px"><span style="font-size:12pt"><span style="color:black">泌尿道腫瘤、腎結石、輸尿管結石、血尿、頻尿、尿失禁、小便無力、隱睪、陰囊腫痛、包皮、性病、性機能障礙、膀胱機能異常、結紮、攝護腺與碎石治療。</span></span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<table cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; margin-left:1px; width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2" style="background-color:#c220c6; vertical-align:top; width:673px"><span style="font-size:1.625em"><span style="font-weight:bold"><span style="color:white">婦兒科門診</span></span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">小兒科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=18" title="前往小兒科"><span style="color:#ffffff"><span style="background-color:#990066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:565px"><span style="font-size:12pt">18歲以下身體不適建議掛小兒科。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#f0b0f2; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">婦產科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=27" title="前往婦產科"><span style="color:#ffffff"><span style="background-color:#990066">(前往)</span></span></a></span></td>
+			<td style="background-color:#f0b0f2; vertical-align:top; width:565px"><span style="font-size:12pt"><span style="color:black">產前產後檢查、不規則陰道出血、白帶、不正常分泌物、月經失調、尿失禁、腹科腫瘤、不孕、避孕、人工流產、結紮、性功能障礙、熱潮紅、心悸、陰道乾澀。</span></span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<table cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; margin-left:1px; width:100%">
+	<tbody>
+		<tr>
+			<td colspan="2" style="background-color:#2f5496; vertical-align:top; width:673px"><span style="font-size:12pt"><span style="color:white">其他專科門診：</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">復健科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=23" title="前往復健科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:527px"><span style="font-size:12pt">運動傷害、中風復健、脊髓損傷、肩頸/腰椎狹窄/退化、坐骨神經痛、周邊神經病變、各式肌肉骨骼關節傷害/退化、術後復健、發展遲緩、語言或吞嚥障礙。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">放射腫瘤科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=33" title="前往放射腫瘤科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:527px"><span style="font-size:12pt"><span style="color:black">針對各部位惡性腫瘤需要單獨放射治療或合併其他手術、化學治療、腫瘤治療後需長期追蹤者。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">家醫科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=29" title="前往家醫科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:527px"><span style="font-size:12pt">常見內科疾病 (高血壓、糖尿病、高血脂等)、疫苗注射、安寧照護 (居家式安寧照護、安寧病房)、延緩失能之長者友善照護門診、老人周全性評估、健康諮詢與檢查。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">牙科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=20" title="前往牙科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:527px"><span style="font-size:12pt"><span style="color:black">智齒拔除、人工植牙及植牙相關手術、根尖切除術、牙冠增長術、顎顏面骨壞死處置、口內軟組織腫瘤切除、骨瘤切除、顳顎關節障礙、牙體復形、根管治療。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">耳鼻喉科<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=28" title="前往耳鼻喉科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:527px"><span style="font-size:12pt">感冒、咳嗽、聲音沙啞、吞嚥困難、鼻炎、鼻瘜肉、耳鳴、中耳炎、顏面神經麻痺、顳顎關節痛、打鼾、臉部/頸部/舌部/口咽腫瘤、聽力/語言/味覺/嗅覺/睡眠障礙。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">眼科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=19" title="前往眼科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:527px"><span style="font-size:12pt"><span style="color:black">近視雷射屈光手術、白內障、飛蚊症、視網膜剝離/</span><span style="color:black">裂孔、青光眼、乾眼症、角膜塑型片</span><span style="color:black">/</span><span style="color:black">義眼驗配、眼部肉毒桿菌素注射、鼻淚管</span><span style="color:black">/</span><span style="color:black">角膜</span><span style="color:black">/</span><span style="color:black">結膜</span><span style="color:black">/</span><span style="color:black">鞏膜</span><span style="color:black">/</span><span style="color:black">眼瞼</span><span style="color:black">/</span><span style="color:black">水晶體</span><span style="color:black">/</span><span style="color:black">視網膜</span><span style="color:black">/</span><span style="color:black">黃斑部各類眼疾。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">皮膚科與醫學美容<a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=25" title="前往皮膚科與醫學美容"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:527px"><span style="font-size:12pt">一般皮膚病、濕疹、皮膚過敏、皮膚感染、指甲病變、雷射除斑/除痣/除疤、美白、果酸護膚、老人斑、黑斑治療。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">精神科</span><a href="https://www.tph.mohw.gov.tw/?aid=51&amp;pid=26" title="前往精神科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:527px"><span style="font-size:12pt"><span style="color:black">失眠、腦神經衰弱、健忘、憂鬱症、焦慮、心理與情緒困擾、行為異常、自殺行為、幻聽、妄想、老人痴呆、失智症。</span></span></td>
+		</tr>
+		<tr>
+			<td style="vertical-align:top; width:108px"><span style="font-size:12pt">中醫科<a href="https://www.tph.mohw.gov.tw/?aid=60&amp;pid=21" title="前往中醫科"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="vertical-align:top; width:527px"><span style="font-size:12pt">呼吸系統疾病、消化系統常見疾病、婦科疾病、不孕、骨傷科發炎、退化性疾病、骨折後恢復、中風、失智失能、顱腦脊髓神經受損、癌症、免疫風濕疾病。</span></td>
+		</tr>
+		<tr>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:108px"><span style="font-size:12pt"><span style="color:black">通訊診療</span><a href="https://nreg.tph.mohw.gov.tw/OReg/OpoDoctorsVisitListPage?sectcategory=%E9%80%9A%E8%A8%8A%E8%A8%BA%E7%99%82&sectid=ALL&sectname=%E9%80%9A%E8%A8%8A%E8%A8%BA%E7%99%82&showcd=N" title="前往通訊診療"><span style="color:#ffffff"><span style="background-color:#000066">(前往)</span></span></a></span></td>
+			<td style="background-color:#b4c6e7; vertical-align:top; width:527px"><span style="font-size:12pt"><span style="color:black">通訊診療。</span></span></td>
+		</tr>
+	</tbody>
+</table></p>
+		</div>
+		</div>
+
+
+<div class="row">
+		</div>
+
+
+<div class="row">
+		
+	</div>
+
+
+<div class="row">
+	
+	
+	</div>
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "/?aid=902"
+	},
+	"datePublished":"2002-10-31",
+	"dateModified":"2024-09-25",
+	"author":"衛生福利部臺北醫院" ,
+	"publisher":{
+		"@type":"GovernmentOrganization",
+		"name":"衛生福利部臺北醫院",
+		"logo":{
+			"@type":"ImageOBject",
+			"url":"/public/logo/392ffaa61940293843e297615eeae5a5.png"
+		}
+	},
+
+		"image":[
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+
+	"headline": "該看哪一科",
+	"about" : "
+					
+	
+		
+			內科系門診
+		
+		
+			一般內科
+			咳嗽、發燒、高血壓、身體不適、常見疾病的預防與診治。
+		
+		
+			肝膽腸胃科(前往)
+			吞嚥異常、胃酸過多、打嗝漲氣、腹部疼痛、解便異常、嘔吐腹瀉、黃膽水腫、肝功能異常、脂肪肝、肝炎、肝硬化、腹部及消化道癌症、幽門桿菌檢查治療等。
+		
+		
+			心臟內科(前往)
+			冠狀動脈心臟病，高血壓性心臟病 ，瓣膜性心臟病，心臟衰竭，心率不整，心導管手術。
+		
+		
+			內分泌新陳代謝科(前往)
+			糖尿病、甲狀腺疾病、副甲狀腺疾病、腦下垂體病變、腎上腺病變、血脂異常、代謝症候群。
+		
+		
+			胸腔內科(前往)
+			感冒、咳嗽、咳血、呼吸道感染、支氣管炎、肺炎、胸痛、胸悶、呼吸困難、肺氣腫、肺結核、肺膿瘍、肺腫瘤、支氣管擴張症。
+		
+		
+			感染內科(前往)
+			愛滋病照護(含篩檢、治療、預防性投藥)、性傳染病、不明原因發燒、蜂窩性組織炎、骨關節感染、感冒、慢性咳嗽、頻尿、皮膚出疹、結核病治療及預防、各種感染症處理。
+		
+		
+			血液腫瘤科(前往)
+			一般血液疾病，如貧血、血球異常增生或減少。惡性腫瘤如淋巴癌、血癌、肺癌、食道癌，頭頸癌、大腸直腸癌、乳癌，攝護腺癌的診斷與治療。
+		
+		
+			風濕免疫科(前往)
+			各種關節疼痛、關節炎，含痛風、退化關節炎、類風濕關節炎、骨質疏鬆。免疫病：僵直性脊椎炎、紅斑性狼瘡、硬皮症、皮肌炎、乾燥症、血管炎，過敏分析。
+		
+		
+			腎臟內科(前往)
+			血液透析、腹膜透析、糖尿病腎病變、腎性高血壓、高尿酸血症、腎臟病、腎泌尿道感染、血尿、尿蛋白、水腫、腰痛、電解質異常。
+		
+		
+			神經內科(前往)
+			頭痛、頸痛、神經或肌肉疼痛，頭暈、昏厥、抽搐、痙孿、癲癇、振顫，巴金森氏症、中風、失智。
+		
+	
+
+&nbsp;
+
+
+	
+		
+			外科系門診
+		
+		
+			一般外科(前往)(含乳房外科(前往))
+			肝膽手術、微創膽囊切除、微創膽道取石、甲狀腺、副甲狀腺手術、乳房各種手術及乳房腫瘤治療。
+		
+		
+			直腸外科(前往)
+			大腸鏡檢查、大腸直腸癌手術、腹腔鏡微創手術、肛門手術、痔瘡、廔管。
+		
+		
+			心臟外科(前往)
+			成人心臟手術、主動脈疾病、周邊血管疾病、下肢動脈阻塞、靜脈曲張、洗腎通路建立及維護。
+		
+		
+			胸腔外科(前往)
+			吞嚥困難、胸部外傷、慢性咳嗽、聲音沙啞、胸痛、胸腔腫瘤胸腔鏡微創切除。
+		
+		
+			整形外科(前往)
+			傷口照護、重建及美容手術，如：手外科外傷、燒燙傷、先天畸形、重建美容、顯微重建、顏面骨骨折、血管瘤及血管畸形、雙眼皮、眼袋、狐臭、豐胸、縮胸、抽脂、男性女乳症等。
+		
+		
+			神經外科(前往)
+			頭部外傷、腦瘤、顱內出血、多汗症、疼痛痠麻、椎間盤突出、下背痛、肩頸痠痛、脊椎滑脫、脊椎腫瘤、脊髓骨與頸椎外傷、腰椎骨折。
+		
+		
+			骨科(前往)
+			骨折脫臼、關節炎、關節退化、脊椎與關節鏡手術、骨瘤、骨質疏鬆、脊椎病變、坐骨神經痛、扳機指、脊椎側彎、脊椎滑脫症、五十肩、十字韌帶斷裂、半月板損傷、骨骼肌肉超音波檢查。
+		
+		
+			泌尿科(前往)
+			泌尿道腫瘤、腎結石、輸尿管結石、血尿、頻尿、尿失禁、小便無力、隱睪、陰囊腫痛、包皮、性病、性機能障礙、膀胱機能異常、結紮、攝護腺與碎石治療。
+		
+	
+
+&nbsp;
+
+
+	
+		
+			婦兒科門診
+		
+		
+			小兒科(前往)
+			18歲以下身體不適建議掛小兒科。
+		
+		
+			婦產科(前往)
+			產前產後檢查、不規則陰道出血、白帶、不正常分泌物、月經失調、尿失禁、腹科腫瘤、不孕、避孕、人工流產、結紮、性功能障礙、熱潮紅、心悸、陰道乾澀。
+		
+	
+
+&nbsp;
+
+
+	
+		
+			其他專科門診：
+		
+		
+			復健科(前往)
+			運動傷害、中風復健、脊髓損傷、肩頸/腰椎狹窄/退化、坐骨神經痛、周邊神經病變、各式肌肉骨骼關節傷害/退化、術後復健、發展遲緩、語言或吞嚥障礙。
+		
+		
+			放射腫瘤科(前往)
+			針對各部位惡性腫瘤需要單獨放射治療或合併其他手術、化學治療、腫瘤治療後需長期追蹤者。
+		
+		
+			家醫科(前往)
+			常見內科疾病 (高血壓、糖尿病、高血脂等)、疫苗注射、安寧照護 (居家式安寧照護、安寧病房)、延緩失能之長者友善照護門診、老人周全性評估、健康諮詢與檢查。
+		
+		
+			牙科(前往)
+			智齒拔除、人工植牙及植牙相關手術、根尖切除術、牙冠增長術、顎顏面骨壞死處置、口內軟組織腫瘤切除、骨瘤切除、顳顎關節障礙、牙體復形、根管治療。
+		
+		
+			耳鼻喉科(前往)
+			感冒、咳嗽、聲音沙啞、吞嚥困難、鼻炎、鼻瘜肉、耳鳴、中耳炎、顏面神經麻痺、顳顎關節痛、打鼾、臉部/頸部/舌部/口咽腫瘤、聽力/語言/味覺/嗅覺/睡眠障礙。
+		
+		
+			眼科(前往)
+			近視雷射屈光手術、白內障、飛蚊症、視網膜剝離/裂孔、青光眼、乾眼症、角膜塑型片/義眼驗配、眼部肉毒桿菌素注射、鼻淚管/角膜/結膜/鞏膜/眼瞼/水晶體/視網膜/黃斑部各類眼疾。
+		
+		
+			皮膚科與醫學美容(前往)
+			一般皮膚病、濕疹、皮膚過敏、皮膚感染、指甲病變、雷射除斑/除痣/除疤、美白、果酸護膚、老人斑、黑斑治療。
+		
+		
+			精神科(前往)
+			失眠、腦神經衰弱、健忘、憂鬱症、焦慮、心理與情緒困擾、行為異常、自殺行為、幻聽、妄想、老人痴呆、失智症。
+		
+		
+			中醫科(前往)
+			呼吸系統疾病、消化系統常見疾病、婦科疾病、不孕、骨傷科發炎、退化性疾病、骨折後恢復、中風、失智失能、顱腦脊髓神經受損、癌症、免疫風濕疾病。
+		
+		
+			通訊診療(前往)
+			通訊診療。
+		
+	
+
+							"
+}
+</script>
+<div class="col-xl-12 col-lg-12 col-md-12 col-12 updcolor">
+	<div class="row py-3" style="display: block; text-align: right;">
+				<i class="fas fa-user-edit" aria-hidden="true" alt=""></i> 資料維護人：總管理者&emsp;&emsp;
+				<i class="far fa-calendar-alt" aria-hidden="true" alt=""></i> 更新日期：2024-09-25
+	</div>
+</div>
+
+
+			</div>
+                     		</div>
+	</div>
+
+	<!--Footer-->
+			<button class="side-menu-btn" id="side-menu-btn" onclick="openNav()" title="快速連結">
+		<i class="fas fa-bars" style="margin-right:15px;"></i>快速連結
+	</button>
+
+	<div id="mySidenav" class="sidenav">
+		<div class="SideNavImg">
+			<a href="javascript:void(0)" title="關閉" class="closebtn" onclick="closeNav()">
+				<img class="img-fluid" src="/images/home_img/close.png" alt=""><span class="sr-only">關閉快速連結</span>
+			</a>
+			<a class="logo d-block" href="/?aid=home" title="衛生福利部臺北醫院">
+				<img class="img-fluid" src="/public/logo/392ffaa61940293843e297615eeae5a5.png" alt="衛生福利部臺北醫院">
+			</a>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/236462fa64c973d8fc2e7e62ab2bd06f.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://nreg.tph.mohw.gov.tw/OReg/homepage#" title="網路掛號(開新視窗)" target="_blank" rel="noopener noreferrer">
+							網路掛號
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/e81c8e1b1503cdeb3f163952c74d5a87.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://nreg.tph.mohw.gov.tw/OReg/OpoDoctorsVisitListPage" title="門診時間表(開新視窗)" target="_blank" rel="noopener noreferrer">
+							門診時間表
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/36f7e5ccc53d2d5ac8e17d9b411d4aa2.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://tihtc.org.tw/#" title="臺灣國際醫療衛生人員中心(TIHTC)(開新視窗)" target="_blank" rel="noopener noreferrer">
+							臺灣國際醫療衛生人員中心(TIHTC)
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/4b94031e79b279d6740a00923567c96b.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=60&pid=42" title="預立醫療照護諮詢(開新視窗)" target="_blank" rel="noopener noreferrer">
+							預立醫療照護諮詢
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/7e1bdad63209bac5559485f95282315b.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=60&pid=39" title="兒童發展聯合評估中心(開新視窗)" target="_blank" rel="noopener noreferrer">
+							兒童發展聯合評估中心
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/54d3d5944d3e9ac84fbf7fd74f8e0bff.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/TaipeiHospitalER/" title="急診醫學科FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							急診醫學科FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/d0a54c8f5ef918ceeae07f2f623eb0a8.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/profile.php?id=61557796798822" title="護理科護教組FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							護理科護教組FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/bb9e95839dd04abb05d4d3c15a2bb024.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/taipeirehab/" title="復健科FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							復健科FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/3b9655cbe94155bb86d8433c12d9210e.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/Health.taipei99" title="健康檢查中心FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							健康檢查中心FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/14910e3bf464ec8a5d41943991f88445.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/%E8%A1%9B%E7%94%9F%E7%A6%8F%E5%88%A9%E9%83%A8%E8%87%BA%E5%8C%97%E9%86%AB%E9%99%A2%E6%82%85%E5%BF%83%E6%97%A5%E7%85%A7%E4%B8%AD%E5%BF%83-105398347862829" title="悅心日照中心FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							悅心日照中心FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/b3135f76c98276593786d31036e25382.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/%E8%A1%9B%E7%A6%8F%E9%83%A8%E8%87%BA%E5%8C%97%E9%86%AB%E9%99%A2%E6%82%85%E5%BF%83%E5%9D%8A%E6%89%98%E5%AC%B0%E4%B8%AD%E5%BF%83-101978555547576" title="悅心坊托嬰中心FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							悅心坊托嬰中心FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/dfb755d2131596e0f784defd06f6e29f.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/tphchildren" title="兒童早期療育中心FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							兒童早期療育中心FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/2b96bfdfda5742d9a0a39ba973b45700.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/profile.php?id=100087176177241" title="泌尿科FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							泌尿科FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/07a07fb69920b36ed3568479bfe17f99.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.facebook.com/456aipvn" title="感染科FB(開新視窗)" target="_blank" rel="noopener noreferrer">
+							感染科FB
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/9835d0dce202ab3e560d85c86d8a2603.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="https://www.mohw.gov.tw/cp-9-18-1.html" title="重大政策(開新視窗)" target="_blank" rel="noopener noreferrer">
+							重大政策
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/36bd1f2c470cd1ec17dce7446518a974.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=630" title="無菸檳醫院(開新視窗)" target="_blank" rel="noopener noreferrer">
+							無菸檳醫院
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/11df0f0dbf7521930efab19a17f99b5c.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=533" title="政府公開資訊(開新視窗)" target="_blank" rel="noopener noreferrer">
+							政府公開資訊
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/de0c305584b8b75ee8a9d86b5a2f3b66.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=501&pid=150" title="財務報表公告(開新視窗)" target="_blank" rel="noopener noreferrer">
+							財務報表公告
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="SideNavStacked" >
+			<div class="row mx-0">
+				<div class="col-md-12 d-flex align-items-center px-0">
+					<div class="mx-2" style="width:30%;">
+						<img class="img-fluid" src="/public/img_tourl/quick_url/9e12050a8c80ce46ea8347778c6ee671.png" alt="">
+					</div>
+					<div class="SideNavTitle">
+						<a href="/?aid=inforscty" title="資訊安全政策(開新視窗)" target="_blank" rel="noopener noreferrer">
+							資訊安全政策
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+	<noscript>
+		您的瀏覽器不支援JavaScript功能，若「快速連結」功能無法正常使用時，請開啟瀏覽器JavaScript狀態，謝謝！
+	</noscript>
+
+
+<div class="py-2 footer-infor">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center footer-explain">
+				<a href="/?aid=accessibility" title="無障礙宣告">無障礙宣告</a>&emsp;|&emsp;
+				<a href="/?aid=privacy" title="隱私權政策">隱私權政策</a>&emsp;|&emsp;
+				<a href="/?aid=webscty" title="網站安全政策">網站安全政策</a>&emsp;|&emsp;
+				<a href="/?aid=inforscty" title="資訊安全政策">資訊安全政策</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="basic-info" style="background-color:#fdfdfd;">
+	<div class="container clearfix">
+		<div class="row pb-4 flex_row">
+			<div class="col-lg-3 col-md-12 col-12 text-center">
+				<a href="/" class="footer-logo d-block" title="衛生福利部臺北醫院">
+					<img class="img-fluid w-100" src="/public/logo/118fb0e56004413893e180c918fb58a9.png" alt="衛生福利部臺北醫院" style="margin: 0 auto;">
+				</a>
+					<div class="use-flex border-line">
+		<div class="p-2">
+			<div class="mb-1">
+				<img src="/images/counter/08/0.gif" title="0" alt="0" align="top"><img src="/images/counter/08/9.gif" title="9" alt="9" align="top"><img src="/images/counter/08/5.gif" title="5" alt="5" align="top"><img src="/images/counter/08/4.gif" title="4" alt="4" align="top"><img src="/images/counter/08/7.gif" title="7" alt="7" align="top"><img src="/images/counter/08/1.gif" title="1" alt="1" align="top"><img src="/images/counter/08/5.gif" title="5" alt="5" align="top"><img src="/images/counter/08/4.gif" title="4" alt="4" align="top">
+			</div>
+			<div class="mb-1">
+				<span class="footer-right">
+					目前線上人數：80人
+				</span>
+			</div>
+		</div>
+	</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-12 col-12">
+								<div class="footer-name">
+					衛生福利部臺北醫院
+				</div>
+								
+								<div class="footer-right">
+					<a href="https://goo.gl/maps/oReJHBbQRwaF5RNi6" target="_blank" rel="noopener noreferrer" title="院址：242033 新北巿新莊區思源路127號 (另開新視窗) ">
+						郵遞區號：242033 新北巿新莊區思源路127號
+					</a>
+				</div>
+				
+				<div class="footer-right">
+											<a href="tel:02-22765566" title="電話:02-22765566">
+							聯絡電話：02-22765566
+						</a><br/>
+					
+									</div>
+
+				
+							</div>
+			
+			<div class="col-lg-2 col-md-12 col-12 my-3">
+				<a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20220823132105" class="footer-logo d-block text-center pb-2" title="通過AA無障礙網頁檢測">
+					<img class="img-fluid" src="/images/home_img/2A.png" alt="無障礙標章2.0 AA" style="margin: 0 auto;">
+				</a>
+			</div>
+			<div class="col-lg-3 col-md-12 col-12 my-2">
+				<a href="/?aid=538" class="footer-logo d-block text-center pb-2" title="員工專區">
+					<img class="img-fluid" src="/images/home_img/staff.png" alt="員工專區圖示" style="margin: 0 auto;">
+				</a>
+			</div>
+
+		</div>
+	</div>
+	
+	<div class="container-fluid use-flex" style="background-color:#1277A5;">
+		<div class="row row_flex">
+			<div class=" col-lg-12 col-md-12 col-12">
+				<div class="copy-right text-center">
+											醫療機構網際網路資訊管理辦法聲明：禁止任何網際網路服務業者轉錄本網路資訊之內容供人點閱。 但以網路搜尋或超連結方式，進入本醫療機構之網址（域）直接點閱者，不在此限。<br />
+本網站建議使用Chrome & Firefox & Microsoft Edge瀏覽器 / 螢幕解析度1920*1080以上<br />
+版權所有 © 2021 衛生福利部臺北醫院
+									</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<noscript>您的瀏覽器不支援JavaScript功能，若「回到頁首」功能無法正常使用時，請開啟瀏覽器JavaScript狀態，謝謝！</noscript>
+
+<div class="scroll-to-top">
+	<a href="javascript:void(0)" title="回到頁首" class="use-flex">
+		<i class="fas fa-arrow-up" aria-hidden="true" alt=""></i>
+		<p style="font-size: 1.1rem; margin-top: .5rem;">TOP</p>
+	</a>
+</div>
+
+
+<script>
+function openNav() {
+	$('#mySidenav').css('display','block');
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+	$('#mySidenav').css('display','none');
+	if($(window).width() > 768){
+		$('.side-menu-btn').focus();
+	}
+}
+
+$(window).on('load',function(){
+	$(".SideNavTitle a").last().focusout(function(){
+		$('#mySidenav').css('display','none');
+	});
+
+	// Scroll to top btn
+	if($('.scroll-to-top').length){
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			if ($(this).scrollTop() > 250) {
+			$('.scroll-to-top').fadeIn();
+			} else {
+			$('.scroll-to-top').fadeOut();
+			}
+		});
+
+		//Click event to scroll to top
+		$('.scroll-to-top').on('click', function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
+	}
+});
+</script>	<!--Footer End-->
+</body>
+</html>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" integrity="sha384-nA7usz4cMKo7RylsCZnpe0V9qx5X7sa011o0OrDzrKUE7Ero1gB48Fjaw6SFxVZe" crossorigin="anonymous" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false" integrity="sha384-xLPjH6nqG4p/2mu1KJ1t+4KqcvkyXVwBucQtyGK65lDNfKzECxGY/QEYWR+Wompr" crossorigin="anonymous"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1d8a8a"
+    },
+    "button": {
+      "background": "#62ffaa"
+    }
+  },
+  "theme": "classic",
+//   "type": "opt-out",
+  "content": {
+    "message": "本網站使用Cookie來確保您在我們的網站上獲得最佳體驗。",
+    "dismiss": "接受",
+    "deny": "拒絕",
+	"allow":"允許Cookie",
+	"href": "/?aid=privacy",
+    "link": "了解更多"
+  }
+});
+</script>
+
+
+</body>
+
+</html>
