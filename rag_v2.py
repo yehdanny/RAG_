@@ -10,10 +10,10 @@ from langchain.chains import create_retrieval_chain
 
 
 llm = Ollama(model="mistral")
-loader = TextLoader("data/output.txt", encoding="utf-8")
+loader = TextLoader("rag_v2/output.txt", encoding="utf-8")
 '''
 這裡使用了 Langchain 社群提供的第三方套件來建立 LLM 物件，
-同時例用 TextLoader 來讀取 data.txt 的內容，
+同時例用 TextLoader 來讀取 output.txt 的內容，
 就不用像我們前面自己手動呼叫 open() 函數讀取檔案。
 接著，我們來把這些文字分割成小段落：
 '''
@@ -38,7 +38,7 @@ embeddings = OllamaEmbeddings(model="mistral")
 vector_db = Chroma.from_documents(
     documents=splited_docs,
     embedding=embeddings,
-    persist_directory="emb_dir",
+    persist_directory="rag_v2_dir",
     collection_name="embeddings",
 )
 '''

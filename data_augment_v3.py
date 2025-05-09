@@ -25,4 +25,4 @@ def extract_departments_from_html(input_file, output_file):
         f.write("\n".join(output_lines))
 
 # 用法
-extract_departments_from_html("hospital/Index.htm", "hospital/output.txt")
+extract_departments_from_html("rag_v3/Index.htm", "rag_v3/output.txt")

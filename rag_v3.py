@@ -13,7 +13,7 @@ from langchain.schema import Document
 
 llm = Ollama(model="mistral")
 
-file = "hospital/output.txt"
+file = "rag_v3/output.txt"
 
 def load_by_department(file_path):
     docs = []
@@ -27,13 +27,15 @@ def load_by_department(file_path):
         if len(lines) >= 2:
             department = lines[0].replace("科別 : ", "")
             description = lines[1].replace("科別病症敘述 : ", "")
-            full_text = f"科別 : {department}\n科別病症敘述 : {description}"
+            full_text = f"這是某醫院的 : {department}\n其常見病症包括 : {description}"
             docs.append(Document(page_content=full_text))
-    
+    #for doc in docs:
+    #    print(f'c = {doc.page_content}')
     return docs
 
 # 用法替代原本 loader.load()
-split_docs = load_by_department("hospital/output.txt")
+split_docs = load_by_department("rag_v3/output.txt")
+
 
 embeddings = OllamaEmbeddings(model="nomic-embed-text")#nomic-embed-text#mistral
 vector_db = Chroma.from_documents(
@@ -45,7 +47,21 @@ vector_db = Chroma.from_documents(
 
 retriever = vector_db.as_retriever(search_kwargs={"k": 3})
 
-system_prompt = "現在開始使用我提供的情境來回答，只能使用繁體中文，不要有簡體中文字。如果你不確定答案，就說不知道。情境如下:\n\n{context}"
+system_prompt = """
+你是一位醫院導診助理，負責根據提供的科別與病症對應資料，協助病人判斷該前往哪一個科別就診。
+
+請根據以下提供的參考內容回答問題：
+- 所有回答必須使用繁體中文。
+- 不可以出現簡體中文字或非正體中文用語。
+- 不可以出現任何醫療建議或診斷。
+- 回答中不得使用資料中未提及的醫療術語或專業詞彙。
+- 只能根據我提供的情境資料（{context}）回答問題，不可以加入你自己的臆測或知識。
+- 如果你無法從提供的內容中找出明確答案，請回應「根據目前資料無法判斷，建議聯絡醫師進一步諮詢。」
+- 若有多個科別符合病症，請列出科別。
+
+以下是參考資料：
+{context}
+"""
 prompt_template = ChatPromptTemplate.from_messages(
     [
         ("system", system_prompt),
@@ -61,9 +77,11 @@ input_text = input("您想問什麼問題？\n>>> ")
 
 while input_text.lower() != "bye":
     #response = retrieval_chain.invoke({"input": input_text, "context": context})
-    response = retrieval_chain.invoke({"input": input_text})
-    context = response["context"]
-
-    print(response["answer"])
-
+    #response = retrieval_chain.invoke({"input": input_text})
+    #context = response["context"]
+    res = retrieval_chain.invoke({"input": input_text}, return_only_outputs=False)
+    print("\n=== 檢索到的 Context ===")
+    print(res["context"])
+    print("\n=== 模型回答 ===")
+    print(res["answer"])
     input_text = input(">>> ")

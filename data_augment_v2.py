@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 # 讀取原始 HTML-like txt 檔
-with open("data/data.txt", "r", encoding="utf-8") as f:
+with open("rag_v2/data.txt", "r", encoding="utf-8") as f:
     content = f.read()
 
 soup = BeautifulSoup(content, "html.parser")
@@ -30,7 +30,7 @@ for i, (q, a) in enumerate(qa_pairs, start=22):  # 從 Q22 開始編號
     output_lines.append("")
 
 # 寫入 output.txt
-with open("data/output.txt", "w", encoding="utf-8") as f:
+with open("rag_v2/output.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(output_lines))
 
 print("✅ 問答寫入 output.txt")
