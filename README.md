@@ -21,13 +21,13 @@
 |眼科     | 眼睛乾澀刺痛且畏光                   |
 |婦產科| 月經來時腹痛明顯，甚至影響工作            |
 
-[source_img](img/source_img.png)
+![source_img](img/source_img.png)
 
 ### 經前處理成:
 
 #### 由 科別 + 科別病症敘述，作為格式
 
-[output_img](img/output.png)
+![output_img](img/output.png)
 
 ---
 
@@ -58,12 +58,12 @@
 __有RAG__ 回應：
 > 根據提供的資料，你應該前往「青少年醫學科」就診。
 
-[w_RAG](img/w_RAG.png)
+![w_RAG](img/w_RAG.png)
 
 無RAG 回應：
 > 你似乎有少年病（acne），需要看皮膚科。但如果你的情況呈現其他特別性质或有其他健康問題， 可能需要考慮與内科、眼科等相關 專業領域的治療。請務必向医生提供正確的資訊以便取得最佳治療建議。
 
-[wo_RAG](img/wo_RAG.png)
+![wo_RAG](img/wo_RAG.png)
 
 
 #### 清楚禁止提供任何醫療建議或診斷，降低使用者誤解 AI 回答為正式醫療意見的風險，符合醫療領域對 AI 使用的審慎原則。
